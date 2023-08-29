@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="description" content="Um pequeno e simples carrossel de imagens">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <main>
+        <div class="carousel">
+            <div class="carousel-inner">
+                <img src="./assets/images/imagem01.jpg" alt="Imagem 01" loading="lazy" class="carousel-slide">
+                <img src="./assets/images/imagem02.jpg" alt="Imagem 02" loading="lazy" class="carousel-slide">
+                <img src="./assets/images/imagem03.jpg" alt="Imagem 03" loading="lazy" class="carousel-slide">
+                <img src="./assets/images/imagem04.jpg" alt="Imagem 04" loading="lazy" class="carousel-slide">
+                <img src="./assets/images/imagem05.jpg" alt="Imagem 05" loading="lazy" class="carousel-slide">
+            </div>
+            <button class="prev-button nav-btn" onclick="prev()">&#8249;</button>
+            <button class="next-button nav-btn" onclick="next()">&#8250;</button>
+            <div class="dots-container"></div>
+        </div>
+    </main>
+    <script src="./index.js"></script>
+</body>
+</html>
